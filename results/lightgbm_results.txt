@@ -1,0 +1,27 @@
+================ LightGBM RESULTS ================
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56864
+           1       0.55      0.84      0.67        98
+
+    accuracy                           1.00     56962
+   macro avg       0.78      0.92      0.83     56962
+weighted avg       1.00      1.00      1.00     56962
+
+ROC AUC : 0.9441370315712104
+Confusion Matrix
+[[56798    66]
+ [   16    82]]
+
+LightGBM Predicted Fraud Cases : 148
+Index=165  Probability=1.0000  Actual=0
+Index=209  Probability=0.6000  Actual=0
+Index=509  Probability=0.8000  Actual=0
+Index=840  Probability=1.0000  Actual=1
+Index=1146  Probability=1.0000  Actual=1
+Index=2113  Probability=0.6000  Actual=0
+Index=2777  Probability=1.0000  Actual=0
+Index=3123  Probability=0.6000  Actual=0
+Index=3287  Probability=0.9865  Actual=1
+Index=3499  Probability=0.8000  Actual=0
