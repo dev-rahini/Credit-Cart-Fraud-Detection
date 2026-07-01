@@ -1,0 +1,27 @@
+================ ANN RESULTS ================
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98     56864
+           1       0.04      0.93      0.08        98
+
+    accuracy                           0.96     56962
+   macro avg       0.52      0.94      0.53     56962
+weighted avg       1.00      0.96      0.98     56962
+
+ROC AUC : 0.9718215068103775
+Confusion Matrix
+[[54635  2229]
+ [    7    91]]
+
+ANN Predicted Fraud Cases : 2320
+Index=4  Probability=0.9414  Actual=0
+Index=19  Probability=0.4489  Actual=0
+Index=30  Probability=0.6043  Actual=0
+Index=109  Probability=0.3244  Actual=0
+Index=131  Probability=0.7694  Actual=0
+Index=162  Probability=0.5888  Actual=0
+Index=165  Probability=0.9964  Actual=0
+Index=177  Probability=0.3908  Actual=0
+Index=189  Probability=0.4539  Actual=0
+Index=204  Probability=0.3502  Actual=0
