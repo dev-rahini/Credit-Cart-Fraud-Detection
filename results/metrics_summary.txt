@@ -1,0 +1,37 @@
+Model Performance Summary
+=========================
+
+Project:
+Federated Fraud Detection using Artificial Neural Network (ANN) and LightGBM
+
+Dataset:
+Credit Card Fraud Detection Dataset
+
+--------------------------------------------------
+ANN Performance
+--------------------------------------------------
+Accuracy      : 96%
+ROC-AUC Score : 0.9718
+Precision     : 0.04
+Recall        : 0.93
+F1-Score      : 0.08
+
+--------------------------------------------------
+LightGBM Performance
+--------------------------------------------------
+Accuracy      : 99.86%
+ROC-AUC Score : 0.9441
+Precision     : 0.55
+Recall        : 0.84
+F1-Score      : 0.67
+
+--------------------------------------------------
+Comparison
+--------------------------------------------------
+• ANN achieved the highest ROC-AUC score (0.9718), indicating strong overall discrimination.
+• ANN detected 91 out of 98 fraud cases (93% recall) but produced many false positives, leading to low precision.
+• LightGBM achieved much higher precision (0.55) with only 66 false positives while maintaining high recall (0.84).
+• LightGBM provided a better balance between fraud detection and false alarm reduction.
+
+Conclusion:
+Both models successfully detected fraudulent transactions using a federated learning approach. ANN achieved higher recall, while LightGBM delivered more balanced and practical performance for real-world fraud detection.
